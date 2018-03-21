@@ -2,7 +2,14 @@ site_name: Carina
 pages:
     - Overview: index.md
     - Getting started: getting_started.md
+    - Project structure: project_structure.md
+    - Configuration: configuration.md
+    - Execution: execution.md
+    - Automation:
+      - Web automation: automation/web.md
+      - Mobile automation: automation/mobile.md
+      - API automation: automation/api.md
+    - Dataproviders: dataproviders.md
     - Release notes: releases.md
-    - About: about.md
 theme:
   name: 'material'
