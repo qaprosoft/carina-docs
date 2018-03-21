@@ -10,6 +10,9 @@ pages:
       - Mobile automation: automation/mobile.md
       - API automation: automation/api.md
     - Dataproviders: dataproviders.md
+    - Security: security.md
     - Release notes: releases.md
 theme:
   name: 'material'
+repo_url: https://github.com/qaprosoft/carina-docs
+repo_name: Github

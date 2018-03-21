@@ -1,10 +1,11 @@
 ### Configuration files
 There are multiple properties files located in src/main/resources:
-* **_api.properties** - API test endpoints reference
-* **_config.properties** - global test configuration
-* **_database.properties** - database connection properties
-* **_email.properties** - emailable reports config
-* **_testdata.properties** - test user credentials
+
+*  **api.properties** - API test endpoints reference
+*  **config.properties** - global test configuration
+*  **database.properties** - database connection properties
+*  **email.properties** - emailable reports config
+*  **testdata.properties** - test user credentials
 
 All properties may be retrieved in test using R class:
 ```
@@ -131,12 +132,7 @@ All project configuration properties are located in **_config.properties** file.
 		<td>Rule for defining WebDriver lifecycle.</td>
 		<td>method_mode / class_mode / suite_mode</td>
 	</tr>
-		<tr>
-		<td>driver_mode</td>
-		<td>Rule for defining WebDriver lifecycle.</td>
-		<td>method_mode / class_mode / suite_mode</td>
-	</tr>
-		<tr>
+	<tr>
 		<td>driver_event_listeners</td>
 		<td>Comma-separated list of listeners. Listeners provide more logs from WebDriver and have to be instances of WebDriverEventListener</td>
 		<td>com.someCompane.core .EventListener</td>
@@ -269,7 +265,7 @@ All project configuration properties are located in **_config.properties** file.
 			<tr>
 		<td>l10n_encoding</td>
 		<td>Charset for l10n feature</td>
-		<td>ISO-8859-5, ISO-8859-6</td>
+		<td>ISO-8859-5, ISO-8859-6, UTF-8</td>
 	</tr>
 	<tr>
 		<td>enable_i18n</td>
