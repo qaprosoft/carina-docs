@@ -193,11 +193,6 @@ All project configuration properties are located in **_config.properties** file.
 		<td>true,false</td>
 	</tr>
 	<tr>
-		<td>smart_screenshot</td>
-		<td>This parameter currently avaliable only for Chrome browser. Enable taking screenshots with metadata</td>
-		<td>true,false</td>
-	</tr>
-	<tr>
 		<td>explicit_timeout</td>
 		<td>Timeout in seconds to wait for a certain condition to occur before proceeding further in the code</td>
 		<td>Integer</td>
